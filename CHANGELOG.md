@@ -1,3 +1,6 @@
+## 2.0.4
+* Upgrade dependencies
+
 ## 2.0.2
 * bugfixes
   * flutter test would sometimes emit a \u0001 character, and now most control characters are xml-escaped
