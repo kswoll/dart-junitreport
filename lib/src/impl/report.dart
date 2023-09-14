@@ -3,10 +3,10 @@
 // license that can be found in the LICENSE file.
 
 import 'package:intl/intl.dart';
-import 'package:xml/xml.dart';
+import 'package:junitreport_maintained/junitreport_maintained.dart';
+import 'package:junitreport_maintained/src/impl/xml.dart';
 import 'package:testreport/testreport.dart';
-import 'package:junitreport/junitreport.dart';
-import 'package:junitreport/src/impl/xml.dart';
+import 'package:xml/xml.dart';
 
 class XmlReport implements JUnitReport {
   static final NumberFormat _milliseconds = NumberFormat('#####0.00#', 'en_US');

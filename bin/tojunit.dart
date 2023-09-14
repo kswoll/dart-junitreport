@@ -5,9 +5,10 @@
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
+
 import 'package:args/args.dart';
 import 'package:intl/intl.dart';
-import 'package:junitreport/junitreport.dart';
+import 'package:junitreport_maintained/junitreport_maintained.dart';
 import 'package:testreport/testreport.dart';
 
 Future<void> main(List<String> args) async {
